@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_0c88ed744eaf41f9998dcbe7a321498e {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0c88ed744eaf41f9998dcbe7a321498e" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_0c88ed744eaf41f9998dcbe7a321498e = L.map(
+                                  'map_0c88ed744eaf41f9998dcbe7a321498e',
+                                  {center: [0,0],
+                                  zoom: 1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_1bc19b3ec5dd4ba4a9e581b4d6457ee0 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_0c88ed744eaf41f9998dcbe7a321498e);
+        
+    
+
+            var marker_57729c0cb0944301b5f8113245ca106f = L.marker(
+                [42.35866000000004,-71.05673999999993],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c88ed744eaf41f9998dcbe7a321498e);
+            
+    
+
+                var icon_4739b1a27f984efb889ceb936132ad2b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_57729c0cb0944301b5f8113245ca106f.setIcon(icon_4739b1a27f984efb889ceb936132ad2b);
+            
+    
+            var popup_3da29e64a4974a66917e29afe40fea1d = L.popup({maxWidth: '300'});
+
+            
+                var html_dc437abf9fb7435487be3fdcb573b4f9 = $('<div id="html_dc437abf9fb7435487be3fdcb573b4f9" style="width: 100.0%; height: 100.0%;">𝕋𝕒𝕪𝕝𝕠𝕣 ℕ𝕖𝕤𝕤 ⚾️</div>')[0];
+                popup_3da29e64a4974a66917e29afe40fea1d.setContent(html_dc437abf9fb7435487be3fdcb573b4f9);
+            
+
+            marker_57729c0cb0944301b5f8113245ca106f.bindPopup(popup_3da29e64a4974a66917e29afe40fea1d);
+
+            
+        
+    
+
+            var marker_58e8b3f19c1c4b52bf4c6a8905fb75af = L.marker(
+                [31.80024000000003,-81.60985999999997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c88ed744eaf41f9998dcbe7a321498e);
+            
+    
+
+                var icon_33b3d793e56e4a5883e50e4621180c45 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_58e8b3f19c1c4b52bf4c6a8905fb75af.setIcon(icon_33b3d793e56e4a5883e50e4621180c45);
+            
+    
+            var popup_3d9a4d2279e7418ba236c69914d47c48 = L.popup({maxWidth: '300'});
+
+            
+                var html_ceababd9c8284c2a89254e658741060c = $('<div id="html_ceababd9c8284c2a89254e658741060c" style="width: 100.0%; height: 100.0%;">Tanner Lund</div>')[0];
+                popup_3d9a4d2279e7418ba236c69914d47c48.setContent(html_ceababd9c8284c2a89254e658741060c);
+            
+
+            marker_58e8b3f19c1c4b52bf4c6a8905fb75af.bindPopup(popup_3d9a4d2279e7418ba236c69914d47c48);
+
+            
+        
+    
+
+            var marker_7bfe35f98a5f4c20855d51537e1ddf6d = L.marker(
+                [26.12367000000006,-80.14355999999998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c88ed744eaf41f9998dcbe7a321498e);
+            
+    
+
+                var icon_c2b49c77c88f4281a1d6c85455c8ac05 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7bfe35f98a5f4c20855d51537e1ddf6d.setIcon(icon_c2b49c77c88f4281a1d6c85455c8ac05);
+            
+    
+            var popup_aa06b34727df4ad9a9706c345bda2af5 = L.popup({maxWidth: '300'});
+
+            
+                var html_dde76cef655545c7aa862180a6f26ffd = $('<div id="html_dde76cef655545c7aa862180a6f26ffd" style="width: 100.0%; height: 100.0%;">Gary Spaulding</div>')[0];
+                popup_aa06b34727df4ad9a9706c345bda2af5.setContent(html_dde76cef655545c7aa862180a6f26ffd);
+            
+
+            marker_7bfe35f98a5f4c20855d51537e1ddf6d.bindPopup(popup_aa06b34727df4ad9a9706c345bda2af5);
+
+            
+        
+    
+
+            var marker_e80e443d940148bbaa10d7ded4e2d4ae = L.marker(
+                [39.61334835300005,-74.72856499999995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c88ed744eaf41f9998dcbe7a321498e);
+            
+    
+
+                var icon_92e23d90aeaf42b29fedfb04c900c155 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e80e443d940148bbaa10d7ded4e2d4ae.setIcon(icon_92e23d90aeaf42b29fedfb04c900c155);
+            
+    
+            var popup_d0f6762e8e6344e088eed137535fda94 = L.popup({maxWidth: '300'});
+
+            
+                var html_79e9c28cc4734f738ccfb497eac44e43 = $('<div id="html_79e9c28cc4734f738ccfb497eac44e43" style="width: 100.0%; height: 100.0%;">NJSENSASIANS CARDS</div>')[0];
+                popup_d0f6762e8e6344e088eed137535fda94.setContent(html_79e9c28cc4734f738ccfb497eac44e43);
+            
+
+            marker_e80e443d940148bbaa10d7ded4e2d4ae.bindPopup(popup_d0f6762e8e6344e088eed137535fda94);
+
+            
+        
+    
+
+            var marker_a1b31aa0ed6c445d9362ed97fbb47c28 = L.marker(
+                [41.49224000000004,-71.31123999999994],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0c88ed744eaf41f9998dcbe7a321498e);
+            
+    
+
+                var icon_5cadf2e5c42a46c9b46d2421c0ee290c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1b31aa0ed6c445d9362ed97fbb47c28.setIcon(icon_5cadf2e5c42a46c9b46d2421c0ee290c);
+            
+    
+            var popup_5f158ec6481c4ef5aef97618b3dabc00 = L.popup({maxWidth: '300'});
+
+            
+                var html_b27a156595f6461c8efb847713f55b6a = $('<div id="html_b27a156595f6461c8efb847713f55b6a" style="width: 100.0%; height: 100.0%;">feline_fox30🇺🇸🇨🇲🇳🇬</div>')[0];
+                popup_5f158ec6481c4ef5aef97618b3dabc00.setContent(html_b27a156595f6461c8efb847713f55b6a);
+            
+
+            marker_a1b31aa0ed6c445d9362ed97fbb47c28.bindPopup(popup_5f158ec6481c4ef5aef97618b3dabc00);
+
+            
+        
+</script>
