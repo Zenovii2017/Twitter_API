@@ -52,7 +52,7 @@ def register():
         map.add_child(folium.Marker(location=change_adress(child),
                                     popup=sentence,
                                     icon=folium.Icon()))
-    map.save('/home/zenuk/PycharmProjects/twitter_api/templates/map.html')
+    map.save(r'/home/zenuk/PycharmProjects/twitter_api/templates/map.html')
     return render_template("map.html")
 
 
